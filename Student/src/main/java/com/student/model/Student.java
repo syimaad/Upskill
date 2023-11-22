@@ -1,7 +1,10 @@
 package com.student.model;
 
+import java.util.Optional;
+
 public class Student {
 	
+	public static final String SEQUENCE_NAME = null;
 	private String name;
 	private int age;
 	private double salary;
@@ -45,6 +48,16 @@ public class Student {
 		// TODO Auto-generated method stub
 		return null;
 	}
-	
+
+	public void setId(Integer id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public Optional<Student> map(Object object) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 	
 }
